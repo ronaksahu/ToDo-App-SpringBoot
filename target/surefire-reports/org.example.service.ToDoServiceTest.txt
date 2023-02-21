@@ -1,0 +1,16 @@
+-------------------------------------------------------------------------------
+Test set: org.example.service.ToDoServiceTest
+-------------------------------------------------------------------------------
+Tests run: 3, Failures: 0, Errors: 3, Skipped: 0, Time elapsed: 0.123 s <<< FAILURE! - in org.example.service.ToDoServiceTest
+testFindByTaskId_whenTaskIdExists_shouldReturnTask  Time elapsed: 0.105 s  <<< ERROR!
+java.lang.NullPointerException
+	at org.example.service.ToDoServiceTest.testFindByTaskId_whenTaskIdExists_shouldReturnTask(ToDoServiceTest.java:44)
+
+testCreateTask_whenUserIdExist_shouldCreateTask  Time elapsed: 0.008 s  <<< ERROR!
+java.lang.NullPointerException
+	at org.example.service.ToDoServiceTest.testCreateTask_whenUserIdExist_shouldCreateTask(ToDoServiceTest.java:73)
+
+testFindByTaskId_whenTaskIdDoesNotExists_shouldThrowTaskNotFoundException  Time elapsed: 0.001 s  <<< ERROR!
+java.lang.NullPointerException
+	at org.example.service.ToDoServiceTest.testFindByTaskId_whenTaskIdDoesNotExists_shouldThrowTaskNotFoundException(ToDoServiceTest.java:54)
+
